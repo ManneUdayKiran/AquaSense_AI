@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "obs-26c1a8b9",
+    "citizen_input": {
+      "observer_name": "Anonymous Citizen",
+      "location_name": "Pine Creek Culvert",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "description": "Dense thick white chemical foam floating downstream from the industrial drain.",
+      "guided_answers": {
+        "water_odor": "none",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "clear",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "water_quality",
+      "severity": "moderate",
+      "confidence": 0.7,
+      "observed_signals": [
+        "dense_white_foam_accumulation"
+      ],
+      "evidence": [
+        "Citizen reported: Dense thick white chemical foam floating downstream from the industrial drain....",
+        "Guided survey: Surface appearance set to 'clear'."
+      ],
+      "missing_information": [
+        "Laboratory chemical assay (pH, dissolved oxygen, nutrients)",
+        "Accredited microbial pathogen testing (E. coli / Enterococci)"
+      ],
+      "uncertainty": [
+        "Photographic and visual observation cannot verify invisible chemical toxicity or dissolved contaminants.",
+        "Water surface optical reflections may partially obscure benthic substrate condition.",
+        "Visual confirmation limited: Observation submitted without photograph."
+      ],
+      "recommendation": "ROUTINE REVIEW RECOMMENDED: Validate citizen observation against municipal water quality baseline and schedule regular monitoring.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Metric 3: Solid Waste & Macroplastic Accumulation Index (SWAI) (OneAquaHealth Citizen Science Manual: Macroplastic & Solid Waste Monitoring in Urban Watercourses)"
+      ],
+      "generated_at": "2026-09-30T18:20:17.837421"
+    },
+    "validation_result": {
+      "passed": false,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": true,
+      "flags": [
+        "UNSUPPORTED_LABORATORY_CLAIM_DETECTED",
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [
+        "chemical toxicity"
+      ],
+      "evidence_score": 0.4,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "AI generated unsupported laboratory chemical/biological assertions (chemical toxicity) without physical lab sensor telemetry.",
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-09-30T18:20:17.841424"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Anonymous Citizen",
+        "details": {
+          "location": "Pine Creek Culvert",
+          "coordinates": {
+            "latitude": 40.7128,
+            "longitude": -74.006
+          },
+          "guided_answers": {
+            "water_odor": "none",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "clear",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-09-30T18:20:16.039006"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "water_quality",
+          "severity": "moderate",
+          "confidence": 0.7,
+          "signals": [
+            "dense_white_foam_accumulation"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Metric 3: Solid Waste & Macroplastic Accumulation Index (SWAI) (OneAquaHealth Citizen Science Manual: Macroplastic & Solid Waste Monitoring in Urban Watercourses)"
+          ]
+        },
+        "timestamp": "2026-09-30T18:20:17.837421"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": false,
+          "flags": [
+            "UNSUPPORTED_LABORATORY_CLAIM_DETECTED",
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [
+            "chemical toxicity"
+          ],
+          "evidence_score": 0.4,
+          "escalation_required": true
+        },
+        "timestamp": "2026-09-30T18:20:17.841424"
+      }
+    ],
+    "created_at": "2026-09-30T18:20:16.035034",
+    "updated_at": "2026-09-30T18:20:16.035034"
+  },
+  {
+    "id": "obs-17ecb5b6",
+    "citizen_input": {
+      "observer_name": "Anonymous Citizen",
+      "location_name": "River Culvert",
+      "coordinates": {
+        "latitude": 40.7,
+        "longitude": -74.0
+      },
+      "description": "Large plumes of dense white foam and chemical smell discharging into the river",
+      "guided_answers": {
+        "water_odor": "none",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "clear",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "water_quality",
+      "severity": "moderate",
+      "confidence": 0.7,
+      "observed_signals": [
+        "dense_white_foam_accumulation"
+      ],
+      "evidence": [
+        "Citizen reported: Large plumes of dense white foam and chemical smell discharging into the river...",
+        "Guided survey: Surface appearance set to 'clear'."
+      ],
+      "missing_information": [
+        "Laboratory chemical assay (pH, dissolved oxygen, nutrients)",
+        "Accredited microbial pathogen testing (E. coli / Enterococci)"
+      ],
+      "uncertainty": [
+        "Photographic and visual observation cannot verify invisible chemical toxicity or dissolved contaminants.",
+        "Water surface optical reflections may partially obscure benthic substrate condition.",
+        "Visual confirmation limited: Observation submitted without photograph."
+      ],
+      "recommendation": "ROUTINE REVIEW RECOMMENDED: Validate citizen observation against municipal water quality baseline and schedule regular monitoring.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-09-30T18:21:47.601012"
+    },
+    "validation_result": {
+      "passed": false,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": true,
+      "flags": [
+        "UNSUPPORTED_LABORATORY_CLAIM_DETECTED",
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [
+        "chemical toxicity"
+      ],
+      "evidence_score": 0.4,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "AI generated unsupported laboratory chemical/biological assertions (chemical toxicity) without physical lab sensor telemetry.",
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-09-30T18:21:47.602010"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Anonymous Citizen",
+        "details": {
+          "location": "River Culvert",
+          "coordinates": {
+            "latitude": 40.7,
+            "longitude": -74.0
+          },
+          "guided_answers": {
+            "water_odor": "none",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "clear",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-09-30T18:21:47.366743"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "water_quality",
+          "severity": "moderate",
+          "confidence": 0.7,
+          "signals": [
+            "dense_white_foam_accumulation"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-09-30T18:21:47.601012"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": false,
+          "flags": [
+            "UNSUPPORTED_LABORATORY_CLAIM_DETECTED",
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [
+            "chemical toxicity"
+          ],
+          "evidence_score": 0.4,
+          "escalation_required": true
+        },
+        "timestamp": "2026-09-30T18:21:47.602010"
+      }
+    ],
+    "created_at": "2026-09-30T18:21:47.366743",
+    "updated_at": "2026-09-30T18:21:47.366743"
+  },
+  {
+    "id": "obs-ce815f1c",
+    "citizen_input": {
+      "observer_name": "Anonymous Citizen",
+      "location_name": "River Culvert",
+      "coordinates": {
+        "latitude": 40.7,
+        "longitude": -74.0
+      },
+      "description": "Large plumes of dense white foam and chemical smell discharging into the river",
+      "guided_answers": {
+        "water_odor": "none",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "clear",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "high",
+      "confidence": 0.85,
+      "observed_signals": [
+        "dense white foam",
+        "chemical odor"
+      ],
+      "evidence": [
+        "visual observation of large plumes of dense white foam discharging into the river",
+        "report of a strong chemical smell associated with the foam"
+      ],
+      "missing_information": [
+        "precipitation history (>72 h dry period)",
+        "identification of discharge source pipe or outfall",
+        "water chemistry analysis to confirm surfactant or contaminant presence",
+        "time of observation"
+      ],
+      "uncertainty": [
+        "cannot confirm chemical composition of foam without sampling",
+        "cannot distinguish between industrial surfactant and natural organic foam solely by visual cues"
+      ],
+      "recommendation": "Initiate immediate field investigation: document exact discharge location, photograph foam extent, halt any suspected illicit outfall, collect water samples for laboratory analysis of surfactants and contaminants, and notify local environmental enforcement for follow‑up action.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-09-30T18:24:00.551034"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.8,
+      "escalation_required": false,
+      "escalation_reasons": [
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-09-30T18:24:00.577964"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Anonymous Citizen",
+        "details": {
+          "location": "River Culvert",
+          "coordinates": {
+            "latitude": 40.7,
+            "longitude": -74.0
+          },
+          "guided_answers": {
+            "water_odor": "none",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "clear",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-09-30T18:23:57.901029"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "high",
+          "confidence": 0.85,
+          "signals": [
+            "dense white foam",
+            "chemical odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-09-30T18:24:00.569538"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-09-30T18:24:00.577964"
+      }
+    ],
+    "created_at": "2026-09-30T18:23:57.901029",
+    "updated_at": "2026-09-30T18:23:57.901029"
+  },
+  {
+    "id": "obs-33887d84",
+    "citizen_input": {
+      "observer_name": "Anonymous Citizen",
+      "location_name": "River Culvert",
+      "coordinates": {
+        "latitude": 40.7,
+        "longitude": -74.0
+      },
+      "description": "Large plumes of dense white foam and chemical smell discharging into the river",
+      "guided_answers": {
+        "water_odor": "none",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "clear",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "high",
+      "confidence": 0.82,
+      "observed_signals": [
+        "dense white foam",
+        "chemical odor"
+      ],
+      "evidence": [
+        "large plumes of dense white foam observed at river culvert",
+        "report of chemical smell accompanying foam"
+      ],
+      "missing_information": [
+        "chemical composition of foam",
+        "exact discharge source",
+        "quantitative water quality data"
+      ],
+      "uncertainty": [
+        "cannot determine contaminant type without laboratory analysis"
+      ],
+      "recommendation": "Conduct on‑site inspection of upstream outfalls, collect water samples for laboratory analysis, notify environmental enforcement, and restrict public access until source is identified and mitigated.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-09-30T18:31:16.615703"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.8,
+      "escalation_required": false,
+      "escalation_reasons": [
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-09-30T18:31:16.620091"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Anonymous Citizen",
+        "details": {
+          "location": "River Culvert",
+          "coordinates": {
+            "latitude": 40.7,
+            "longitude": -74.0
+          },
+          "guided_answers": {
+            "water_odor": "none",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "clear",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-09-30T18:31:14.042958"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "high",
+          "confidence": 0.82,
+          "signals": [
+            "dense white foam",
+            "chemical odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-09-30T18:31:16.617717"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-09-30T18:31:16.621089"
+      }
+    ],
+    "created_at": "2026-09-30T18:31:14.042958",
+    "updated_at": "2026-09-30T18:31:14.042958"
+  },
+  {
+    "id": "obs-oah-101",
+    "citizen_input": {
+      "observer_name": "Elena Rostova",
+      "location_name": "Regent's Canal Urban Tributary - Culvert 4B",
+      "coordinates": {
+        "latitude": 51.5348,
+        "longitude": -0.1189
+      },
+      "description": "Found thick billowing white froth and soapy foam accumulating along the storm outlet. Noticeable detergent floral odor. Foam has been persisting for over 30 minutes without dissipating.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "milky_cloudy",
+        "water_flow": "moderate",
+        "surface_appearance": "dense_foam",
+        "bank_condition": "concrete_canal",
+        "surrounding_land_use": "residential"
+      },
+      "photo_filename": "sample_foam_discharge.jpg",
+      "photo_url": "/uploads/sample_foam_discharge.jpg"
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "water_quality",
+      "severity": "high",
+      "confidence": 0.88,
+      "observed_signals": [
+        "dense_white_foam_accumulation",
+        "detergent_or_chemical_odor",
+        "milky_suspended_surfactants"
+      ],
+      "evidence": [
+        "Citizen report confirms thick billowing white froth persisting >30 mins.",
+        "Guided attributes indicate chemical/petroleum odor and milky opacity.",
+        "Culvert outfall concrete canal setting matches graywater discharge profile."
+      ],
+      "missing_information": [
+        "Anionic surfactant (MBAS) grab sample laboratory test",
+        "Upstream storm sewer cadastre tracing"
+      ],
+      "uncertainty": [
+        "Visual foam analysis cannot determine exact surfactant chemical toxicity without lab spectrometry."
+      ],
+      "recommendation": "HUMAN SPECIALIST VERIFICATION RECOMMENDED: Dispatch field inspector to trace upstream storm sewer junction and collect grab samples for MBAS detergent testing.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)"
+      ],
+      "generated_at": "2026-10-02T09:42:34.435892"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.95,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "Assessment rated 'HIGH' mandates human review before municipal dispatch."
+      ],
+      "validated_at": "2026-10-02T09:42:34.435892"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Elena Rostova",
+        "details": {
+          "location": "Regent's Canal Urban Tributary - Culvert 4B",
+          "odor": "chemical_petroleum"
+        },
+        "timestamp": "2026-10-02T09:40:34.435892"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "water_quality",
+          "severity": "high",
+          "confidence": 0.88
+        },
+        "timestamp": "2026-10-02T09:42:34.435892"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "evidence_score": 0.95,
+          "escalation_required": true
+        },
+        "timestamp": "2026-10-02T09:42:34.435892"
+      }
+    ],
+    "created_at": "2026-10-02T09:42:34.435892",
+    "updated_at": "2026-10-02T09:42:34.435892"
+  },
+  {
+    "id": "obs-oah-102",
+    "citizen_input": {
+      "observer_name": "Marcus Vance",
+      "location_name": "Willow Creek Nature Reserve - Bridge 2",
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
+      "description": "The stream is completely crystal clear and transparent today. Pebbles are clearly visible on the gravel bed. Flow is calm and fresh.",
+      "guided_answers": {
+        "water_odor": "none",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "clear",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": "sample_clear_stream.jpg",
+      "photo_url": "/uploads/sample_clear_stream.jpg"
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "water_quality",
+      "severity": "high",
+      "confidence": 0.62,
+      "observed_signals": [
+        "visible_turbidity_brown_clouding",
+        "bed_sedimentation_risk"
+      ],
+      "evidence": [
+        "Automated shadow heuristic flagged dark area as sediment plume."
+      ],
+      "missing_information": [
+        "Turbidimeter NTU reading"
+      ],
+      "uncertainty": [
+        "High sunlight glare and tree shadow interference over water surface."
+      ],
+      "recommendation": "HUMAN VERIFICATION REQUIRED: Re-examine observation due to conflicting clarity cues.",
+      "sources": [
+        "OneAquaHealth Protocol 4: Visual Water Turbidity & Suspended Solids Classification"
+      ],
+      "generated_at": "2026-10-02T07:42:34.435892"
+    },
+    "validation_result": {
+      "passed": false,
+      "schema_valid": true,
+      "evidence_sufficient": false,
+      "contradiction_detected": true,
+      "unsupported_claims_detected": false,
+      "flags": [
+        "CONTRADICTION_CLARITY_MISMATCH",
+        "INSUFFICIENT_EVIDENCE_FOR_SEVERITY",
+        "LOW_AI_CONFIDENCE"
+      ],
+      "contradictions": [
+        "Citizen recorded 'crystal clear' water, but AI flagged severe turbidity/discoloration."
+      ],
+      "unsupported_claims": [],
+      "evidence_score": 0.45,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "Contradiction detected: Citizen recorded 'crystal clear' water while AI flagged severe turbidity.",
+        "AI confidence (0.62) is below safety threshold (0.65)."
+      ],
+      "validated_at": "2026-10-02T07:42:34.435892"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Marcus Vance",
+        "details": {
+          "location": "Willow Creek Nature Reserve - Bridge 2",
+          "clarity": "crystal_clear"
+        },
+        "timestamp": "2026-10-02T07:39:34.435892"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "water_quality",
+          "severity": "high",
+          "confidence": 0.62
+        },
+        "timestamp": "2026-10-02T07:42:34.435892"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": false,
+          "contradiction_flagged": true,
+          "evidence_score": 0.45
+        },
+        "timestamp": "2026-10-02T07:42:34.435892"
+      }
+    ],
+    "created_at": "2026-10-02T07:42:34.435892",
+    "updated_at": "2026-10-02T07:42:34.435892"
+  },
+  {
+    "id": "obs-oah-103",
+    "citizen_input": {
+      "observer_name": "Devin Chen",
+      "location_name": "Industrial Canal Basin South Outfall",
+      "coordinates": {
+        "latitude": 52.52,
+        "longitude": 13.405
+      },
+      "description": "Dark oily film near the boat slip. Smells like old engine fuel or industrial waste.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "discolored_black_green",
+        "water_flow": "slow_trickle",
+        "surface_appearance": "oily_sheen",
+        "bank_condition": "concrete_canal",
+        "surrounding_land_use": "commercial_industrial"
+      },
+      "photo_filename": "sample_oil_sheen.jpg",
+      "photo_url": "/uploads/sample_oil_sheen.jpg"
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "critical",
+      "confidence": 0.74,
+      "observed_signals": [
+        "surface_iridescence_or_rainbow_film",
+        "petroleum_chemical_odor_profile"
+      ],
+      "evidence": [
+        "Citizen report indicates petroleum odor and oily film.",
+        "Unvalidated assertion: high pathogen count with E. coli contamination and heavy metals detected from optical reflection."
+      ],
+      "missing_information": [
+        "VOC photoionization detector reading",
+        "Certified laboratory hydrocarbon panel"
+      ],
+      "uncertainty": [
+        "Image cannot confirm whether film is petroleum or natural biogenic iron biofilm."
+      ],
+      "recommendation": "EMERGENCY TRIAGE: Deploy absorbent boom and dispatch certified environmental inspector.",
+      "sources": [
+        "OneAquaHealth Protocol 7: Hydrocarbon Sheen vs Natural Biofilm Differentiation",
+        "OneAquaHealth Guidelines 8: Photographic Limitations & Laboratory Validation Mandate"
+      ],
+      "generated_at": "2026-10-02T05:42:34.435892"
+    },
+    "validation_result": {
+      "passed": false,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": true,
+      "flags": [
+        "UNSUPPORTED_LABORATORY_CLAIM_DETECTED"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [
+        "e. coli",
+        "pathogen count",
+        "heavy metals"
+      ],
+      "evidence_score": 0.6,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "AI generated unsupported laboratory chemical/biological assertions (e. coli, heavy metals) without physical lab telemetry.",
+        "High severity mandates physical grab sampling confirmation."
+      ],
+      "validated_at": "2026-10-02T05:42:34.435892"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Devin Chen",
+        "details": {
+          "location": "Industrial Canal Basin South Outfall"
+        },
+        "timestamp": "2026-10-02T05:40:34.435892"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "severity": "critical",
+          "unsupported_claims_present": true
+        },
+        "timestamp": "2026-10-02T05:42:34.435892"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "unsupported_claims_blocked": [
+            "e. coli",
+            "heavy metals"
+          ],
+          "passed": false
+        },
+        "timestamp": "2026-10-02T05:42:34.435892"
+      }
+    ],
+    "created_at": "2026-10-02T05:42:34.435892",
+    "updated_at": "2026-10-02T05:42:34.435892"
+  },
+  {
+    "id": "obs-oah-104",
+    "citizen_input": {
+      "observer_name": "Aisha Al-Mansoor",
+      "location_name": "Seine Tributary Confluence - Grate 12",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "description": "Over 60 plastic soda bottles, styrofoam cups, and plastic grocery bags are trapped against the bridge culvert weir, causing water backflow.",
+      "guided_answers": {
+        "water_odor": "musty_earthy",
+        "water_clarity": "slightly_turbid",
+        "water_flow": "moderate",
+        "surface_appearance": "floating_trash",
+        "bank_condition": "concrete_canal",
+        "surrounding_land_use": "residential"
+      },
+      "photo_filename": "sample_plastic_waste.jpg",
+      "photo_url": "/uploads/sample_plastic_waste.jpg"
+    },
+    "status": "approved",
+    "ai_assessment": {
+      "category": "plastic_debris",
+      "severity": "high",
+      "confidence": 0.89,
+      "observed_signals": [
+        "floating_macroplastic_and_solid_waste",
+        "culvert_hydraulic_choke_risk"
+      ],
+      "evidence": [
+        "Citizen report indicates >60 macroplastic units trapped against culvert weir.",
+        "Surface appearance classified as floating_trash.",
+        "Hydraulic damming risk at stream constriction."
+      ],
+      "missing_information": [
+        "Culvert upstream water elevation measurement"
+      ],
+      "uncertainty": [
+        "Debris volume under water surface cannot be fully estimated."
+      ],
+      "recommendation": "DISPATCH MUNICIPAL WORK ORDER: Riparian cleanup and debris boom clearing recommended within 24 hours.",
+      "sources": [
+        "OneAquaHealth Metric 3: Solid Waste & Macroplastic Accumulation Index (SWAI)"
+      ],
+      "generated_at": "2026-10-01T12:42:34.435892"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.98,
+      "escalation_required": true,
+      "escalation_reasons": [
+        "High severity debris choke mandates municipal triage approval."
+      ],
+      "validated_at": "2026-10-01T12:42:34.435892"
+    },
+    "human_review": {
+      "reviewer_id": "rev-specialist-04",
+      "reviewer_name": "Dr. Claire Dubois (Catchment Hydrologist)",
+      "decision": "approved",
+      "final_category": "plastic_debris",
+      "final_severity": "high",
+      "decision_notes": "AI assessment perfectly matches SWAI Grade 3 criteria. Photographic evidence confirms culvert choke risk. Municipal clean-up dispatch order #4492 issued.",
+      "reviewed_at": "2026-10-01T14:42:34.435892"
+    },
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Aisha Al-Mansoor",
+        "details": {
+          "location": "Seine Tributary Confluence - Grate 12"
+        },
+        "timestamp": "2026-10-01T11:42:34.435892"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "severity": "high",
+          "category": "plastic_debris"
+        },
+        "timestamp": "2026-10-01T12:42:34.435892"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "score": 0.98
+        },
+        "timestamp": "2026-10-01T12:42:34.435892"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Dr. Claire Dubois (rev-specialist-04)",
+        "details": {
+          "decision": "approved",
+          "final_severity": "high",
+          "agreement": true
+        },
+        "timestamp": "2026-10-01T14:42:34.435892"
+      }
+    ],
+    "created_at": "2026-10-01T11:42:34.435892",
+    "updated_at": "2026-10-01T14:42:34.435892"
+  },
+  {
+    "id": "obs-6c1f852c",
+    "citizen_input": {
+      "observer_name": "kiran",
+      "location_name": "Ward 127 Rangareddy Nagar, Greater Hyderabad Municipal Corporation North Zone",
+      "coordinates": {
+        "latitude": 17.49024,
+        "longitude": 78.43459
+      },
+      "description": "Thick billowing white froth and soapy foam accumulating along the stormwater outlet pipe. Noticeable perfume/detergent odor.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "milky_cloudy",
+        "water_flow": "moderate",
+        "surface_appearance": "dense_foam",
+        "bank_condition": "concrete_canal",
+        "surrounding_land_use": "residential"
+      },
+      "photo_filename": "obs-6c1f852c.jpg",
+      "photo_url": "/uploads/obs-6c1f852c.jpg"
+    },
+    "status": "approved",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "moderate",
+      "confidence": 0.82,
+      "observed_signals": [
+        "white billowing foam",
+        "soapy texture on water surface",
+        "detergent-like odor"
+      ],
+      "evidence": [
+        "thick white froth accumulating along stormwater outlet pipe",
+        "dense foam covering surface of water",
+        "concrete canal bank condition"
+      ],
+      "missing_information": [
+        "chemical analysis of water for surfactants",
+        "quantitative flow measurements",
+        "identification of exact discharge source"
+      ],
+      "uncertainty": [
+        "cannot confirm chemical composition or source without laboratory testing"
+      ],
+      "recommendation": "Inspect the stormwater outfall for possible illicit connections, collect water samples for surfactant analysis, and enforce relevant discharge regulations to prevent further foam formation.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-10-02T14:35:12.971242"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 1.0,
+      "escalation_required": false,
+      "escalation_reasons": [],
+      "validated_at": "2026-10-02T14:35:12.977347"
+    },
+    "human_review": {
+      "reviewer_id": "rev-user-id",
+      "reviewer_name": "Dr. Claire Dubois (Catchment Specialist (ID: rev-specialist-04))",
+      "decision": "approved",
+      "final_category": "illegal_discharge",
+      "final_severity": "moderate",
+      "decision_notes": "Approved AI recommendation based on photographic evidence and OneAquaHealth protocols.",
+      "reviewed_at": "2026-10-02T14:36:11.512112"
+    },
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "kiran",
+        "details": {
+          "location": "Ward 127 Rangareddy Nagar, Greater Hyderabad Municipal Corporation North Zone",
+          "coordinates": {
+            "latitude": 17.49024,
+            "longitude": 78.43459
+          },
+          "guided_answers": {
+            "water_odor": "chemical_petroleum",
+            "water_clarity": "milky_cloudy",
+            "water_flow": "moderate",
+            "surface_appearance": "dense_foam",
+            "bank_condition": "concrete_canal",
+            "surrounding_land_use": "residential"
+          },
+          "has_photo": true
+        },
+        "timestamp": "2026-10-02T14:35:10.861401"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "moderate",
+          "confidence": 0.82,
+          "signals": [
+            "white billowing foam",
+            "soapy texture on water surface",
+            "detergent-like odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T14:35:12.975072"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 1.0,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T14:35:12.977347"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Dr. Claire Dubois (Catchment Specialist (ID: rev-specialist-04)) (rev-user-id)",
+        "details": {
+          "decision": "approved",
+          "final_category": "illegal_discharge",
+          "final_severity": "moderate",
+          "decision_notes": "Approved AI recommendation based on photographic evidence and OneAquaHealth protocols.",
+          "ai_severity_was": "moderate",
+          "agreement": true
+        },
+        "timestamp": "2026-10-02T14:36:11.544787"
+      }
+    ],
+    "created_at": "2026-10-02T14:35:10.855939",
+    "updated_at": "2026-10-02T14:35:10.855939"
+  },
+  {
+    "id": "obs-de16a1a2",
+    "citizen_input": {
+      "observer_name": "Elena Rostova",
+      "location_name": "Regent's Canal Urban Tributary - Culvert 4B",
+      "coordinates": {
+        "latitude": 51.5348,
+        "longitude": -0.1189
+      },
+      "description": "Thick billowing white froth and soapy foam accumulating along the stormwater outlet pipe. Noticeable perfume/detergent odor.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "milky_cloudy",
+        "water_flow": "moderate",
+        "surface_appearance": "dense_foam",
+        "bank_condition": "concrete_canal",
+        "surrounding_land_use": "residential"
+      },
+      "photo_filename": "obs-de16a1a2.jpg",
+      "photo_url": "/uploads/obs-de16a1a2.jpg"
+    },
+    "status": "pending_review",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "moderate",
+      "confidence": 0.78,
+      "observed_signals": [
+        "dense white foam",
+        "soap-like odor",
+        "milky cloudy water",
+        "steady flow from outlet pipe"
+      ],
+      "evidence": [
+        "billowing white froth and soapy foam at stormwater outlet",
+        "detectable detergent perfume odor",
+        "milky cloudy water appearance",
+        "moderate flow observed"
+      ],
+      "missing_information": [
+        "water temperature",
+        "flow rate measurement",
+        "duration of foam persistence",
+        "identification of source pipe connection"
+      ],
+      "uncertainty": [
+        "potential natural organic foam vs surfactant origin",
+        "exact chemical composition of foam"
+      ],
+      "recommendation": "Investigate outfall pipe for illicit surfactant discharge, conduct on-site visual inspection, collect grab samples for laboratory analysis, and enforce appropriate remediation per OneAquaHealth Protocol 1 and Guideline 5.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-10-02T14:38:43.958568"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 1.0,
+      "escalation_required": false,
+      "escalation_reasons": [],
+      "validated_at": "2026-10-02T14:38:43.959914"
+    },
+    "human_review": null,
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Elena Rostova",
+        "details": {
+          "location": "Regent's Canal Urban Tributary - Culvert 4B",
+          "coordinates": {
+            "latitude": 51.5348,
+            "longitude": -0.1189
+          },
+          "guided_answers": {
+            "water_odor": "chemical_petroleum",
+            "water_clarity": "milky_cloudy",
+            "water_flow": "moderate",
+            "surface_appearance": "dense_foam",
+            "bank_condition": "concrete_canal",
+            "surrounding_land_use": "residential"
+          },
+          "has_photo": true
+        },
+        "timestamp": "2026-10-02T14:38:41.768433"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "moderate",
+          "confidence": 0.78,
+          "signals": [
+            "dense white foam",
+            "soap-like odor",
+            "milky cloudy water",
+            "steady flow from outlet pipe"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T14:38:43.959914"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 1.0,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T14:38:43.959914"
+      }
+    ],
+    "created_at": "2026-10-02T14:38:41.768433",
+    "updated_at": "2026-10-02T14:38:41.768433"
+  }
+]

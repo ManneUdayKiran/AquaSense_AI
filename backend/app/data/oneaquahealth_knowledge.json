@@ -1,0 +1,200 @@
+[
+  {
+    "id": "OAH-IND-01",
+    "protocol_code": "OAH-WQ-SURF-01",
+    "title": "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage",
+    "category": "water_quality",
+    "content": "Detergent surfactants and graywater discharges create distinctive white, billowing, cohesive foam along stream riffles, stormwater outlets, and eddy pools. Natural organic foam (decaying humic acids) is typically thin, brownish or tan-colored, and dissipates rapidly upon agitation. Thick white foam lasting >10 minutes with mild fragrance or sewage odor indicates direct greywater or industrial laundry effluent. Immediate field inspection is mandated when foam patches exceed 2 square meters near residential storm drains.",
+    "key_indicators": [
+      "billowing white froth",
+      "persistent bubbles (>10 min)",
+      "detergent or soapy odor",
+      "outfall pipe discharge"
+    ],
+    "thresholds": {
+      "low": "Sparse natural brownish foam near natural organic debris / leaf litter",
+      "moderate": "Localized white foam patches (<1m2) near stormwater drain outlet",
+      "high": "Thick continuous white foam blanket (>2m2) accompanied by greywater clouding",
+      "critical": "Dense billowing foam bank (>5m) actively entering main river stem with noticeable chemical/perfumed scent"
+    },
+    "recommended_actions": [
+      "Dispatch stormwater inspector to trace upstream storm sewer junction",
+      "Take grab sample for anionic surfactant (MBAS) testing",
+      "Log photo evidence with GPS coordinate verification"
+    ],
+    "source_document": "OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1"
+  },
+  {
+    "id": "OAH-IND-02",
+    "protocol_code": "OAH-ECO-ALGAE-02",
+    "title": "OneAquaHealth Indicator 2: Visual Assessment of Cyanobacteria & Eutrophic Algal Blooms",
+    "category": "algal_bloom",
+    "content": "Urban runoff rich in fertilizer phosphates and nitrates induces severe cyanobacteria (blue-green algae) proliferation and green filamentous algal mats. Cyanobacteria blooms appear like spilled pea soup, bright green paint slicks, or blue-green scums on calm waters. Filamentous green algae form submerged hair-like strands or floating green carpets. IMPORTANT LIMITATION: Photographs can document the visual presence of green surface scum or turbidity, but cannot determine microcystin or cyanotoxin concentration without laboratory ELISA or spectrometry.",
+    "key_indicators": [
+      "bright green pea-soup surface slick",
+      "blue-green scummy layer",
+      "stagnant warm water body",
+      "musty or septic decaying vegetation odor"
+    ],
+    "thresholds": {
+      "low": "Scattered filamentous green algae clinging to rocks (<15% benthic cover)",
+      "moderate": "Green surface patches covering 15-40% of pond/stream surface",
+      "high": "Dense pea-soup cyanobacterial film covering >40% surface with visible surface scum",
+      "critical": "Complete blue-green scummy blanket with dead fish or severe anoxic septic odor"
+    },
+    "recommended_actions": [
+      "Issue recreational water advisory prohibiting pet and human immersion",
+      "Perform microcystin cyanotoxin laboratory assay",
+      "Evaluate upstream nutrient loading from urban lawn fertilizers or sewage overflows"
+    ],
+    "source_document": "OneAquaHealth Biomonitoring Protocol: Harmful Algal Blooms in European Urban Catchments, Annex B"
+  },
+  {
+    "id": "OAH-IND-03",
+    "protocol_code": "OAH-WAS-SWAI-03",
+    "title": "OneAquaHealth Metric 3: Solid Waste & Macroplastic Accumulation Index (SWAI)",
+    "category": "plastic_debris",
+    "content": "Macroplastic waste (>5mm) such as single-use plastic bottles, polyethylene bags, food packaging, and synthetic polystyrene fragments obstruct urban culverts, degrade riparian benthic habitat, and leach plasticizers. Visual citizen surveys count items per 100-meter reach. SWAI categorizes debris density into Clean, Moderate Litter, Heavy Accumulation, and Severe Choke Points.",
+    "key_indicators": [
+      "plastic beverage bottles",
+      "synthetic wrappers and films",
+      "polystyrene foam debris",
+      "culvert trash damming"
+    ],
+    "thresholds": {
+      "low": "Fewer than 5 visible macroplastic items per 50m stream bank",
+      "moderate": "6 to 25 items per 50m reach, mostly isolated along waterline",
+      "high": "26 to 100 items per 50m, debris entrapment on woody snags",
+      "critical": "Over 100 items forming hydraulic damming/choke at bridges or culvert grates"
+    },
+    "recommended_actions": [
+      "Schedule municipal riparian cleanup team dispatch",
+      "Install floating debris boom at culvert inlet",
+      "Document plastic manufacturer branding for municipal extended producer responsibility audit"
+    ],
+    "source_document": "OneAquaHealth Citizen Science Manual: Macroplastic & Solid Waste Monitoring in Urban Watercourses"
+  },
+  {
+    "id": "OAH-IND-04",
+    "protocol_code": "OAH-WQ-TURB-04",
+    "title": "OneAquaHealth Protocol 4: Visual Water Turbidity & Suspended Solids Classification",
+    "category": "water_quality",
+    "content": "Water clarity is an essential visual proxy for total suspended solids (TSS) and sedimentation. Observations must distinguish between natural storm sediment pulse (uniform light brown silt after torrential rain) versus acute point-source industrial/construction mud dumping. Visual categories: Crystal Clear (stream bed stones sharply visible >1m depth), Slightly Turbid (benthos visible <0.5m), Milky/Cloudy (unidentified chemical or limestone suspension), Opaque Muddy (brown silt zero visibility), and Black/Septic (severe deoxygenation and anaerobic sulfide production).",
+    "key_indicators": [
+      "stream bed visibility",
+      "milky or chalky opacity",
+      "brown silt plume",
+      "black anaerobic water column"
+    ],
+    "thresholds": {
+      "low": "Crystal clear to slightly turbid with bed substrate stones clearly visible",
+      "moderate": "Milky or slightly murky water with reduced visibility (10-30cm)",
+      "high": "Opaque muddy orange-brown silt from active upstream construction runoff without silt fencing",
+      "critical": "Pitch black septic stream with hydrogen sulfide odor and zero transparency"
+    },
+    "recommended_actions": [
+      "Check upstream civil engineering/construction sites for sediment containment failures",
+      "Deploy turbidimeter for NTU measurement",
+      "Inspect municipal sewer mains for collapse or cross-connection"
+    ],
+    "source_document": "OneAquaHealth Field Manual: Rapid Physical Water Quality Screening, Section 2.3"
+  },
+  {
+    "id": "OAH-IND-05",
+    "protocol_code": "OAH-DIS-ILLEGAL-05",
+    "title": "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage",
+    "category": "illegal_discharge",
+    "content": "Outfall pipes flowing during dry weather (>72 hours without precipitation) represent probable illicit connections from industrial, commercial, or sanitary sewage networks. Key visual markers include discolored discharge plumes, unnatural elevated temperature (visible steam in cool weather), petroleum sheen with rainbow iridescence, or thick grey sewage fungus (Sphaerotilus natans). LIMITATION: An image of a pipe cannot identify exact chemical constituents (e.g. heavy metals, VOCs); prompt chemical grab sampling is required.",
+    "key_indicators": [
+      "dry-weather active pipe flow",
+      "discolored plume entering clear stream",
+      "petroleum rainbow sheen on water",
+      "sewage fungus growth at pipe lip"
+    ],
+    "thresholds": {
+      "low": "Trickling clear groundwater seepage from weep holes in retaining wall",
+      "moderate": "Turbid discharge with faint odor under low flow conditions",
+      "high": "Discolored continuous outfall plume with oily rainbow sheen or soapy white discharge",
+      "critical": "Direct raw sewage or chemical solvent discharge with strong noxious stench"
+    },
+    "recommended_actions": [
+      "Emergency notification to municipal illicit discharge detection and elimination (IDDE) unit",
+      "Collect grab samples for ammonia, surfactants, conductivity, and E. coli lab testing",
+      "Trace pipe network using municipal GIS drainage cadastre"
+    ],
+    "source_document": "OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5"
+  },
+  {
+    "id": "OAH-IND-06",
+    "protocol_code": "OAH-BIO-HAB-06",
+    "title": "OneAquaHealth Protocol 6: Benthic Macroinvertebrate Habitat & Bank Integrity",
+    "category": "macroinvertebrate_habitat",
+    "content": "Healthy urban streams feature heterogeneous physical structure: coarse gravel/cobble riffles, stable vegetated banks, submerged root systems, and overhead tree canopy shade. Channelization with vertical concrete walls and silt-choked gravel destroys macroinvertebrate refuge (mayflies, stoneflies, caddisflies), favoring pollution-tolerant chironomids and tubifex worms. Bank erosion releases excess sediment that smothers fish spawning gravels.",
+    "key_indicators": [
+      "coarse gravel riffles vs concrete channel",
+      "riparian tree canopy cover",
+      "bank collapse or vertical soil scars",
+      "absence of submerged aquatic vegetation"
+    ],
+    "thresholds": {
+      "low": "Intact vegetated riparian corridor with diverse cobble substrate and clear water",
+      "moderate": "Minor bank undercut (<0.5m) and isolated trampled vegetation",
+      "high": "Extensive bank slope collapse with active mud slumping into watercourse",
+      "critical": "Total habitat degradation: channel stripped to concrete flume with continuous siltation"
+    },
+    "recommended_actions": [
+      "Recommend bioengineering bank stabilization (willow stakes, coir logs)",
+      "Conduct kick-net macroinvertebrate biotic index survey (BMWP / ASPT score)",
+      "Establish 15-meter riparian buffer planting zone"
+    ],
+    "source_document": "OneAquaHealth Ecosystem Assessment: Habitat Integrity & Benthic Biotic Health, Module 4"
+  },
+  {
+    "id": "OAH-IND-07",
+    "protocol_code": "OAH-DIS-OIL-07",
+    "title": "OneAquaHealth Protocol 7: Hydrocarbon Sheen vs Natural Biofilm Differentiation",
+    "category": "illegal_discharge",
+    "content": "Iridescent films on water surfaces are frequently misidentified by citizens. Hydrocarbon petroleum slicks (motor oil, gasoline, diesel) will quickly swirl, blend, and reform into swirling rainbow patterns when poked with a stick or disrupted. Natural biogenic iron/manganese bacterial biofilms or natural lipid sheens are brittle; when disturbed with a stick, they fracture and break into rigid geometric plates or angular tiles that do not reform smoothly. AI must clearly note this distinction and avoid diagnosing diesel fuel without confirming disruption behavior.",
+    "key_indicators": [
+      "iridescent rainbow reflection",
+      "swirling fluid film vs brittle fractured plates",
+      "petroleum/gasoline odor vs marshy vegetable smell"
+    ],
+    "thresholds": {
+      "low": "Brittle, fracturing biogenic iron bacteria sheen in slow wetland pool (natural process)",
+      "moderate": "Isolated rainbow oil drip from street bridge storm run-off (<0.5m2)",
+      "high": "Continuous swirling hydrocarbon rainbow slick originating from vehicle yard or gas station",
+      "critical": "Heavy thick black fuel oil slick coating bank vegetation and waterfowl"
+    },
+    "recommended_actions": [
+      "Deploy absorbent oil booms across stream constriction point",
+      "Conduct VOC photoionization detector field screening",
+      "Report immediately to environmental protection hotline"
+    ],
+    "source_document": "OneAquaHealth Field Diagnostic Guide: Surface Film & Hydrocarbon Incident Identification"
+  },
+  {
+    "id": "OAH-IND-08",
+    "protocol_code": "OAH-VAL-SAFETY-08",
+    "title": "OneAquaHealth Guidelines 8: Photographic Limitations & Laboratory Validation Mandate",
+    "category": "water_quality",
+    "content": "CORE SCIENTIFIC CONSTRAINT: Photographic observation is strictly limited to macroscopic, optical, and morphological evidence (foam, color, turbidity, macroinvertebrates, trash, bank collapse). AI systems ARE STRICTLY PROHIBITED from claiming precise laboratory-grade chemical metrics (e.g. pH value, nitrate mg/L, dissolved oxygen ppm, lead/cadmium/heavy metal concentration, or bacterial pathogen counts like E. coli or Enterococci) solely from citizen photographs. All high-severity and critical assessments MUST prompt certified laboratory grab sampling and human specialist validation.",
+    "key_indicators": [
+      "strict separation of visible signals from invisible chemistry",
+      "mandatory grab sample protocol for chemical claims",
+      "human reviewer verification requirement"
+    ],
+    "thresholds": {
+      "low": "Visual signals sufficient for baseline monitoring",
+      "moderate": "Visual anomalies require physical site verification within 48 hours",
+      "high": "Mandatory human review + certified laboratory grab sample collection",
+      "critical": "Emergency human verification + immediate multidisciplinary hazard response"
+    },
+    "recommended_actions": [
+      "Reject or redact unsupported laboratory chemical claims in AI recommendations",
+      "Schedule accredited laboratory chemical panel (pH, DO, BOD5, Ammonia, Heavy Metals)",
+      "Verify observer submission with ground-truth sensor stations"
+    ],
+    "source_document": "OneAquaHealth Framework WP1: Scientific Rigor & Citizen Science Data Quality Assurance Protocol"
+  }
+]
