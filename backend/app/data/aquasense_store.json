@@ -300,7 +300,7 @@
         "report of a strong chemical smell associated with the foam"
       ],
       "missing_information": [
-        "precipitation history (>72 h dry period)",
+        "precipitation history (>72\u202fh dry period)",
         "identification of discharge source pipe or outfall",
         "water chemistry analysis to confirm surfactant or contaminant presence",
         "time of observation"
@@ -309,7 +309,7 @@
         "cannot confirm chemical composition of foam without sampling",
         "cannot distinguish between industrial surfactant and natural organic foam solely by visual cues"
       ],
-      "recommendation": "Initiate immediate field investigation: document exact discharge location, photograph foam extent, halt any suspected illicit outfall, collect water samples for laboratory analysis of surfactants and contaminants, and notify local environmental enforcement for follow‑up action.",
+      "recommendation": "Initiate immediate field investigation: document exact discharge location, photograph foam extent, halt any suspected illicit outfall, collect water samples for laboratory analysis of surfactants and contaminants, and notify local environmental enforcement for follow\u2011up action.",
       "sources": [
         "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
         "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
@@ -436,7 +436,7 @@
       "uncertainty": [
         "cannot determine contaminant type without laboratory analysis"
       ],
-      "recommendation": "Conduct on‑site inspection of upstream outfalls, collect water samples for laboratory analysis, notify environmental enforcement, and restrict public access until source is identified and mitigated.",
+      "recommendation": "Conduct on\u2011site inspection of upstream outfalls, collect water samples for laboratory analysis, notify environmental enforcement, and restrict public access until source is identified and mitigated.",
       "sources": [
         "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
         "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
@@ -540,7 +540,7 @@
         "surrounding_land_use": "residential"
       },
       "photo_filename": "sample_foam_discharge.jpg",
-      "photo_url": "/uploads/sample_foam_discharge.jpg"
+      "photo_url": "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80"
     },
     "status": "pending_review",
     "ai_assessment": {
@@ -640,7 +640,7 @@
         "surrounding_land_use": "urban_park"
       },
       "photo_filename": "sample_clear_stream.jpg",
-      "photo_url": "/uploads/sample_clear_stream.jpg"
+      "photo_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
     },
     "status": "pending_review",
     "ai_assessment": {
@@ -743,7 +743,7 @@
         "surrounding_land_use": "commercial_industrial"
       },
       "photo_filename": "sample_oil_sheen.jpg",
-      "photo_url": "/uploads/sample_oil_sheen.jpg"
+      "photo_url": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=600&q=80"
     },
     "status": "pending_review",
     "ai_assessment": {
@@ -849,7 +849,7 @@
         "surrounding_land_use": "residential"
       },
       "photo_filename": "sample_plastic_waste.jpg",
-      "photo_url": "/uploads/sample_plastic_waste.jpg"
+      "photo_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
     },
     "status": "approved",
     "ai_assessment": {
@@ -1462,7 +1462,7 @@
       "uncertainty": [
         "visual assessment cannot confirm chemical composition or exact source"
       ],
-      "recommendation": "Conduct on‑site inspection of the outfall pipe for illicit surfactant discharge, monitor foam persistence, and coordinate with local authorities for source mitigation.",
+      "recommendation": "Conduct on\u2011site inspection of the outfall pipe for illicit surfactant discharge, monitor foam persistence, and coordinate with local authorities for source mitigation.",
       "sources": [
         "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
         "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
@@ -2010,5 +2010,401 @@
     ],
     "created_at": "2026-10-02T17:33:45.374926",
     "updated_at": "2026-10-02T17:33:45.374926"
+  },
+  {
+    "id": "obs-34fd4aac",
+    "citizen_input": {
+      "observer_name": "Test Citizen",
+      "location_name": "River Test Outfall",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "description": "Observed white soap suds and bubbles floating down the canal bank.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "dense_foam",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "modified",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "moderate",
+      "confidence": 0.78,
+      "observed_signals": [
+        "dense_foam",
+        "white_soap_suds",
+        "bubbles"
+      ],
+      "evidence": [
+        "visual observation of white, billowing foam along canal bank",
+        "foam consistent with surfactant discharge"
+      ],
+      "missing_information": [
+        "quantitative flow measurement",
+        "chemical composition analysis of foam",
+        "identification of discharge source"
+      ],
+      "uncertainty": [
+        "cannot confirm chemical nature without laboratory analysis"
+      ],
+      "recommendation": "Investigate potential illicit discharge source, conduct targeted visual and in\u2011situ sampling, notify local environmental authority, and monitor foam persistence",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-10-02T17:53:52.304858"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.8,
+      "escalation_required": false,
+      "escalation_reasons": [
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-10-02T17:53:49.955673"
+    },
+    "human_review": {
+      "reviewer_id": "rev-test-88",
+      "reviewer_name": "Catchment Officer",
+      "decision": "modified",
+      "final_category": "algal_bloom",
+      "final_severity": "moderate",
+      "decision_notes": "Expert override after visual confirmation of microcystis film.",
+      "reviewed_at": "2026-10-02T17:53:52.342302"
+    },
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Test Citizen",
+        "details": {
+          "location": "River Test Outfall",
+          "coordinates": {
+            "latitude": 40.7128,
+            "longitude": -74.006
+          },
+          "guided_answers": {
+            "water_odor": "chemical_petroleum",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "dense_foam",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-10-02T17:53:46.530523"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "high",
+          "confidence": 0.78,
+          "signals": [
+            "white soap suds",
+            "dense foam",
+            "bubbles",
+            "chemical petroleum odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T17:53:49.825273"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T17:53:49.829276"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Senior Limnologist (rev-test-42)",
+        "details": {
+          "decision": "approved",
+          "final_category": "water_quality",
+          "final_severity": "high",
+          "decision_notes": "Confirmed detergent discharge from storm culvert.",
+          "ai_severity_was": "high",
+          "agreement": true
+        },
+        "timestamp": "2026-10-02T17:53:49.873857"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T17:53:49.955673"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "moderate",
+          "confidence": 0.78,
+          "signals": [
+            "dense_foam",
+            "white_soap_suds",
+            "bubbles"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T17:53:52.305985"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Catchment Officer (rev-test-88)",
+        "details": {
+          "decision": "modified",
+          "final_category": "algal_bloom",
+          "final_severity": "moderate",
+          "decision_notes": "Expert override after visual confirmation of microcystis film.",
+          "ai_severity_was": "moderate",
+          "agreement": true
+        },
+        "timestamp": "2026-10-02T17:53:52.365647"
+      }
+    ],
+    "created_at": "2026-10-02T17:53:46.530523",
+    "updated_at": "2026-10-02T17:53:46.530523"
+  },
+  {
+    "id": "obs-814e1e41",
+    "citizen_input": {
+      "observer_name": "Test Citizen",
+      "location_name": "River Test Outfall",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "description": "Observed white soap suds and bubbles floating down the canal bank.",
+      "guided_answers": {
+        "water_odor": "chemical_petroleum",
+        "water_clarity": "crystal_clear",
+        "water_flow": "moderate",
+        "surface_appearance": "dense_foam",
+        "bank_condition": "natural_vegetated",
+        "surrounding_land_use": "urban_park"
+      },
+      "photo_filename": null,
+      "photo_url": null
+    },
+    "status": "modified",
+    "ai_assessment": {
+      "category": "illegal_discharge",
+      "severity": "high",
+      "confidence": 0.78,
+      "observed_signals": [
+        "white_foam",
+        "bubbles",
+        "chemical_petroleum_odor"
+      ],
+      "evidence": [
+        "dense white foam observed along canal bank",
+        "bubbles floating downstream",
+        "report of petroleum\u2011like odor"
+      ],
+      "missing_information": [
+        "chemical analysis of water",
+        "quantitative flow data",
+        "identification of discharge source"
+      ],
+      "uncertainty": [
+        "whether foam originates from domestic detergent or industrial surfactant"
+      ],
+      "recommendation": "Conduct on\u2011site visual inspection of the outfall, collect water samples for surfactant and hydrocarbon analysis, and enforce compliance with discharge permits.",
+      "sources": [
+        "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+        "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+      ],
+      "generated_at": "2026-10-02T18:19:17.912910"
+    },
+    "validation_result": {
+      "passed": true,
+      "schema_valid": true,
+      "evidence_sufficient": true,
+      "contradiction_detected": false,
+      "unsupported_claims_detected": false,
+      "flags": [
+        "NO_PHOTOGRAPHIC_EVIDENCE"
+      ],
+      "contradictions": [],
+      "unsupported_claims": [],
+      "evidence_score": 0.8,
+      "escalation_required": false,
+      "escalation_reasons": [
+        "Observation lacks photo upload; visual verification cannot be confirmed."
+      ],
+      "validated_at": "2026-10-02T18:19:15.789583"
+    },
+    "human_review": {
+      "reviewer_id": "rev-test-88",
+      "reviewer_name": "Catchment Officer",
+      "decision": "modified",
+      "final_category": "algal_bloom",
+      "final_severity": "moderate",
+      "decision_notes": "Expert override after visual confirmation of microcystis film.",
+      "reviewed_at": "2026-10-02T18:19:17.953487"
+    },
+    "audit_trail": [
+      {
+        "event_type": "CITIZEN_SUBMITTED",
+        "actor": "Test Citizen",
+        "details": {
+          "location": "River Test Outfall",
+          "coordinates": {
+            "latitude": 40.7128,
+            "longitude": -74.006
+          },
+          "guided_answers": {
+            "water_odor": "chemical_petroleum",
+            "water_clarity": "crystal_clear",
+            "water_flow": "moderate",
+            "surface_appearance": "dense_foam",
+            "bank_condition": "natural_vegetated",
+            "surrounding_land_use": "urban_park"
+          },
+          "has_photo": false
+        },
+        "timestamp": "2026-10-02T18:19:10.873281"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "moderate",
+          "confidence": 0.78,
+          "signals": [
+            "dense white foam",
+            "bubbles",
+            "chemical petroleum odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T18:19:15.616410"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T18:19:15.617614"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Senior Limnologist (rev-test-42)",
+        "details": {
+          "decision": "approved",
+          "final_category": "water_quality",
+          "final_severity": "high",
+          "decision_notes": "Confirmed detergent discharge from storm culvert.",
+          "ai_severity_was": "moderate",
+          "agreement": false
+        },
+        "timestamp": "2026-10-02T18:19:15.671298"
+      },
+      {
+        "event_type": "VALIDATION_ENGINE_EVALUATED",
+        "actor": "AquaSense-Deterministic-Validator",
+        "details": {
+          "passed": true,
+          "flags": [
+            "NO_PHOTOGRAPHIC_EVIDENCE"
+          ],
+          "contradictions": [],
+          "unsupported_claims": [],
+          "evidence_score": 0.8,
+          "escalation_required": false
+        },
+        "timestamp": "2026-10-02T18:19:15.790145"
+      },
+      {
+        "event_type": "AI_RECOMMENDATION_GENERATED",
+        "actor": "AquaSense-Multimodal-Engine-v1",
+        "details": {
+          "category": "illegal_discharge",
+          "severity": "high",
+          "confidence": 0.78,
+          "signals": [
+            "white_foam",
+            "bubbles",
+            "chemical_petroleum_odor"
+          ],
+          "sources_cited": [
+            "OneAquaHealth Protocol 1: Urban Stream Surface Foam & Surfactant Triage (OneAquaHealth Framework WP3: Urban Aquatic Physical-Chemical Indicators Guideline, Sec 4.1)",
+            "OneAquaHealth Guideline 5: Illicit Discharge & Pipe Outfall Triage (OneAquaHealth Urban Catchment Surveillance: Illicit Discharge Detection Manual, Chapter 5)"
+          ]
+        },
+        "timestamp": "2026-10-02T18:19:17.913922"
+      },
+      {
+        "event_type": "HUMAN_DECISION_COMMITTED",
+        "actor": "Catchment Officer (rev-test-88)",
+        "details": {
+          "decision": "modified",
+          "final_category": "algal_bloom",
+          "final_severity": "moderate",
+          "decision_notes": "Expert override after visual confirmation of microcystis film.",
+          "ai_severity_was": "high",
+          "agreement": false
+        },
+        "timestamp": "2026-10-02T18:19:17.983216"
+      }
+    ],
+    "created_at": "2026-10-02T18:19:10.873281",
+    "updated_at": "2026-10-02T18:19:10.873281"
   }
 ]

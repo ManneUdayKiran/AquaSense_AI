@@ -25,7 +25,8 @@ htmlcov/
 *.sqlite
 *.sqlite3
 *.db
-uploads/
+backend/app/uploads/obs-*.jpg
+backend/app/uploads/obs-*.png
 
 # Build artifacts
 dist/

@@ -36,7 +36,7 @@ def populate_seed_data():
                 surrounding_land_use="residential"
             ),
             photo_filename="sample_foam_discharge.jpg",
-            photo_url="/uploads/sample_foam_discharge.jpg"
+            photo_url="https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80"
         ),
         status="pending_review",
         ai_assessment=AIAssessment(
@@ -121,7 +121,7 @@ def populate_seed_data():
                 surrounding_land_use="urban_park"
             ),
             photo_filename="sample_clear_stream.jpg",
-            photo_url="/uploads/sample_clear_stream.jpg"
+            photo_url="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
         ),
         status="pending_review",
         ai_assessment=AIAssessment(
@@ -201,7 +201,7 @@ def populate_seed_data():
                 surrounding_land_use="commercial_industrial"
             ),
             photo_filename="sample_oil_sheen.jpg",
-            photo_url="/uploads/sample_oil_sheen.jpg"
+            photo_url="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=600&q=80"
         ),
         status="pending_review",
         ai_assessment=AIAssessment(
@@ -283,7 +283,7 @@ def populate_seed_data():
                 surrounding_land_use="residential"
             ),
             photo_filename="sample_plastic_waste.jpg",
-            photo_url="/uploads/sample_plastic_waste.jpg"
+            photo_url="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
         ),
         status="approved",
         ai_assessment=AIAssessment(
@@ -377,7 +377,7 @@ def populate_seed_data():
                 surrounding_land_use="urban_park"
             ),
             photo_filename="sample_algae_duckweed.jpg",
-            photo_url="/uploads/sample_algae_duckweed.jpg"
+            photo_url="https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=600&q=80"
         ),
         status="modified",
         ai_assessment=AIAssessment(
