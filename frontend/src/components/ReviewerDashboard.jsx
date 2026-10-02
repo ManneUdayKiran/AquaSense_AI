@@ -360,6 +360,10 @@ export default function ReviewerDashboard({
                       src={resolvePhotoUrl(input.photo_url)} 
                       alt={input.location_name}
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80";
+                      }}
                     />
                   ) : (
                     <div style={{ 

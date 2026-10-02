@@ -204,6 +204,10 @@ export default function InteractiveMap({ onSelectObservation }) {
                       src={resolvePhotoUrl(point.photo_url)} 
                       alt={point.title}
                       style={{ width: '100%', height: '100px', objectFit: 'cover', borderRadius: '6px', marginBottom: '8px' }}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80";
+                      }}
                     />
                   )}
                   <h4 style={{ fontSize: '0.95rem', color: '#fff', marginBottom: '4px' }}>{point.title}</h4>

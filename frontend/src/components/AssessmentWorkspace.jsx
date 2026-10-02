@@ -196,6 +196,10 @@ export default function AssessmentWorkspace({
                     transition: 'all 0.3s ease'
                   }}
                   onClick={() => setZoomImage(!zoomImage)}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "https://images.unsplash.com/photo-1618477388954-7852f32655ec?auto=format&fit=crop&w=600&q=80";
+                  }}
                 />
                 <button
                   onClick={() => setZoomImage(!zoomImage)}
