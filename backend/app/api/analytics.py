@@ -38,13 +38,18 @@ def get_analytics_summary():
     contradictions = sum(len(o.validation_result.contradictions) for o in observations if o.validation_result)
 
     # Human-AI Agreement: when reviewed, did final human severity match AI recommendation?
-    reviewed_obs = [o for o in observations if o.human_review is not None and o.ai_assessment is not None]
-    agreed_count = sum(1 for o in reviewed_obs if o.human_review.final_severity == o.ai_assessment.severity)
-    agreement_rate = (agreed_count / len(reviewed_obs) * 100.0) if reviewed_obs else 85.0
+    agreed_count = 0
+    reviewed_count = 0
+    for o in observations:
+        if o.human_review is not None and o.ai_assessment is not None:
+            reviewed_count += 1
+            if o.human_review.final_severity == o.ai_assessment.severity:
+                agreed_count += 1
+    agreement_rate = (agreed_count / reviewed_count * 100.0) if reviewed_count else 85.0
 
     # Severity & Category breakdown
-    severities = {"low": 0, "moderate": 0, "high": 0, "critical": 0}
-    categories = {}
+    severities: dict[str, int] = {"low": 0, "moderate": 0, "high": 0, "critical": 0}
+    categories: dict[str, int] = {}
     total_conf = 0.0
     conf_count = 0
 
