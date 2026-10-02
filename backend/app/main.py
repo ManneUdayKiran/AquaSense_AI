@@ -15,13 +15,29 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# CORS
+# CORS - Robust permissions for Vercel production, preview deployments, and local dev
+origins = list(settings.cors_origin_list)
+known_origins = [
+    "https://aquasense-ai-rose.vercel.app",
+    "https://aquasense-ai.vercel.app",
+    "https://ecosynai.vercel.app",
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:8000"
+]
+for ko in known_origins:
+    if ko not in origins:
+        origins.append(ko)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.cors_origin_list,
+    allow_origins=origins if "*" not in origins else ["*"],
+    allow_origin_regex=r"^https?://.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"]
 )
 
 # Static file serving for photo uploads
