@@ -291,6 +291,9 @@ export default function CitizenPortal({ userRole = 'citizen', onObservationCreat
       if (selectedPhoto) {
         formData.append("photo", selectedPhoto);
       }
+      if (photoPreview) {
+        formData.append("photo_data_url", photoPreview);
+      }
 
       const createdObs = await api.submitObservation(formData);
       setCreatedObservation(createdObs);

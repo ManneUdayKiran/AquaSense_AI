@@ -28,10 +28,20 @@ function setFallbackMode(active, error = null) {
   }
 }
 
+export const resolvePhotoUrl = (url) => {
+  if (!url) return null;
+  if (url.startsWith('data:') || url.startsWith('http://') || url.startsWith('https://')) {
+    return url;
+  }
+  const backendBase = (import.meta.env.VITE_API_URL || 'https://aquasense-ai-5rm7.onrender.com').replace(/\/+$/, '').replace(/\/api$/, '');
+  return `${backendBase}${url.startsWith('/') ? '' : '/'}${url}`;
+};
+
 export const api = {
   // Connection diagnostic helpers
   isUsingFallback: () => isUsingFallback,
   getBaseUrl: () => API_BASE,
+  resolvePhotoUrl,
   onConnectionChange: (callback) => {
     listeners.add(callback);
     return () => listeners.delete(callback);

@@ -16,7 +16,7 @@ import {
   UserCheck,
   Trash2
 } from 'lucide-react';
-import { api } from '../services/api';
+import { api, resolvePhotoUrl } from '../services/api';
 import ConfirmDeleteModal from './ConfirmDeleteModal';
 
 export default function ReviewerDashboard({ 
@@ -357,7 +357,7 @@ export default function ReviewerDashboard({
                 <div style={{ height: '160px', width: '100%', position: 'relative', background: '#0a0f1d' }}>
                   {input.photo_url ? (
                     <img 
-                      src={input.photo_url} 
+                      src={resolvePhotoUrl(input.photo_url)} 
                       alt={input.location_name}
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />

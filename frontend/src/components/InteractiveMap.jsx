@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
 import { MapPin, ExternalLink, ShieldCheck, Layers, RefreshCw } from 'lucide-react';
-import { api } from '../services/api';
+import { api, resolvePhotoUrl } from '../services/api';
 
 // Helper component to auto-fit map bounds when points change
 function MapAutoBounds({ points }) {
@@ -201,7 +201,7 @@ export default function InteractiveMap({ onSelectObservation }) {
                 <div style={{ padding: '4px', maxWidth: '240px' }}>
                   {point.photo_url && (
                     <img 
-                      src={point.photo_url} 
+                      src={resolvePhotoUrl(point.photo_url)} 
                       alt={point.title}
                       style={{ width: '100%', height: '100px', objectFit: 'cover', borderRadius: '6px', marginBottom: '8px' }}
                     />

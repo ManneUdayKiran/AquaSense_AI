@@ -24,7 +24,7 @@ import {
   ArrowRight,
   Trash2
 } from 'lucide-react';
-import { api } from '../services/api';
+import { api, resolvePhotoUrl } from '../services/api';
 import ConfirmDeleteModal from './ConfirmDeleteModal';
 
 export default function AssessmentWorkspace({ 
@@ -186,7 +186,7 @@ export default function AssessmentWorkspace({
             {input.photo_url ? (
               <>
                 <img 
-                  src={input.photo_url} 
+                  src={resolvePhotoUrl(input.photo_url)} 
                   alt="Observation photographic evidence"
                   style={{
                     width: '100%',

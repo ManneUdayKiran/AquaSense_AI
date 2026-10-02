@@ -1,10 +1,14 @@
 import json
 import uuid
 import shutil
+import base64
+import logging
 from pathlib import Path
 from typing import Optional, List
 from fastapi import APIRouter, HTTPException, UploadFile, File, Form, Query
 from fastapi.responses import JSONResponse
+
+logger = logging.getLogger(__name__)
 
 from app.core.config import settings
 from app.core.database import db
@@ -32,7 +36,8 @@ async def submit_observation(
     longitude: float = Form(...),
     description: str = Form(...),
     guided_answers_json: Optional[str] = Form(None),
-    photo: Optional[UploadFile] = File(None)
+    photo: Optional[UploadFile] = File(None),
+    photo_data_url: Optional[str] = Form(None)
 ):
     """
     Submit a citizen observation with text, coordinates, guided answers, and optional photo.
@@ -51,9 +56,45 @@ async def submit_observation(
         safe_ext = Path(photo.filename).suffix or ".jpg"
         photo_filename = f"{obs_id}{safe_ext}"
         target_path = settings.UPLOAD_DIR / photo_filename
-        with open(target_path, "wb") as buffer:
-            shutil.copyfileobj(photo.file, buffer)
-        photo_url = f"/uploads/{photo_filename}"
+        
+        photo_bytes = photo.file.read()
+        try:
+            with open(target_path, "wb") as buffer:
+                buffer.write(photo_bytes)
+        except Exception as e:
+            logger.warning(f"Could not write photo to disk: {e}")
+
+        # Convert to high-fidelity, compressed Base64 Data URL for permanent cross-origin rendering
+        try:
+            from PIL import Image
+            import io
+            img = Image.open(io.BytesIO(photo_bytes))
+            if img.mode in ("RGBA", "P"):
+                img = img.convert("RGB")
+            img.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
+            out_buf = io.BytesIO()
+            img.save(out_buf, format="JPEG", quality=82, optimize=True)
+            b64_data = base64.b64encode(out_buf.getvalue()).decode("utf-8")
+            photo_url = f"data:image/jpeg;base64,{b64_data}"
+        except Exception as e:
+            logger.warning(f"Pillow compression fallback: {e}")
+            b64_data = base64.b64encode(photo_bytes).decode("utf-8")
+            mime = photo.content_type or "image/jpeg"
+            photo_url = f"data:{mime};base64,{b64_data}"
+    elif photo_data_url:
+        photo_url = photo_data_url
+        try:
+            if "," in photo_data_url:
+                header, b64_content = photo_data_url.split(",", 1)
+                safe_ext = ".jpg"
+                if "png" in header:
+                    safe_ext = ".png"
+                photo_filename = f"{obs_id}{safe_ext}"
+                target_path = settings.UPLOAD_DIR / photo_filename
+                with open(target_path, "wb") as buffer:
+                    buffer.write(base64.b64decode(b64_content))
+        except Exception as e:
+            logger.warning(f"Could not persist base64 photo to disk: {e}")
 
     # Parse guided answers
     guided_answers = GuidedQuestions()
